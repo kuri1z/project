@@ -12,21 +12,21 @@ header {
     padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid black;
-
-    
 }
 
 .nadpis{
     width: 300px;
     padding: 0 20px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .info {
-    background-color: #333
+    background-color: #333;
     display: flex;
     justify-content: center;
     color: white; 
-    text-indent: 20px;
+    text-indent: 50px;
     padding: 10px;
 }
 
@@ -61,6 +61,32 @@ footer {
     display: flex;
     justify-content: center;
     opacity: 20%;
+}
+
+.ikonky{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color-scheme: white;
+}
+
+.doba{
+    justify-content: center;
+    display: flex;
+    margin-left: 1100px
+}
+
+.dny{
+    justify-content: center;
+    display: flex;
+    margin-left: 1100px;
+    column-count: 7;
+    column-gap: 20px;
+}
+
+.dny p{
+    margin: 5px;
 }
 
 
