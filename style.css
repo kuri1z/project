@@ -1,0 +1,66 @@
+body {
+    font-family: monospace;
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;   
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+    
+}
+
+.nadpis{
+    width: 300px;
+    padding: 0 20px;
+}
+
+.info {
+    background-color: #333
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-indent: 20px;
+    padding: 10px;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+    padding: px;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cheffik{
+    display: flex;
+    justify-content: center;
+    opacity: 20%;
+}
+
+
