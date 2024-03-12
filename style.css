@@ -8,17 +8,16 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;   
+    color: #fff;
     padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid black;
 }
 
 .nadpis{
-    width: 300px;
-    padding: 0 20px;
-    text-align: center;
-    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+
 }
 
 .info {
@@ -27,7 +26,6 @@ header {
     justify-content: center;
     color: white; 
     text-indent: 50px;
-    padding: 10px;
 }
 
 .info a{
@@ -61,6 +59,7 @@ footer {
     display: flex;
     justify-content: center;
     opacity: 20%;
+    margin-top: -420px;
 }
 
 .ikonky{
@@ -85,8 +84,49 @@ footer {
     column-gap: 20px;
 }
 
-.dny p{
-    margin: 5px;
+.pondeli{
+    text-align: right;
+    margin-right: 377px;
+    margin-top: 120px;
 }
+
+.utery{
+    text-align: right;
+    margin-right: 396px;
+    margin-top: 30px;
+    
+}
+
+.streda{
+    text-align: right;
+    margin-right: 387px;
+    margin-top: 30px;
+}
+
+.ctvrtek{
+    text-align: right;
+    margin-right: 378px;
+    margin-top: 30px;
+
+}
+
+.patek{
+    text-align: right;
+    margin-right: 396px;
+    margin-top: 30px;
+}
+
+.sobota{
+    text-align: right;
+    margin-right: 387px;
+    margin-top: 30px;
+}
+
+.nedele{
+    text-align: right;
+    margin-right: 387px;
+    margin-top: 30px;
+}
+
 
 
