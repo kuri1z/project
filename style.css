@@ -5,63 +5,81 @@ body {
     width: 100%;
     margin: 0;
 }
-
+ 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ad0f0f;
+    color: #fff;  
     padding: 20px 0;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
+    margin-top: -30px;
 }
-
+ 
 .nadpis{
-    justify-content: center;
     display: flex;
-
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+ 
 }
-
+ 
 .info {
-    background-color: #333;
+    background-color: #ad0f0f;
     display: flex;
     justify-content: center;
-    color: white; 
+    color: white;
     text-indent: 50px;
+    font-weight: bold;  
 }
-
+ 
 .info a{
     text-decoration: none;
     color: white;
 }
-
+ 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+ 
 }
-
+ 
 section {
     padding: px;
     justify-content: center;
     display: flex;
 }
-
+ 
+main{
+    margin-top: 200px;
+}
+ 
 footer {
-    background-color: #333;
+    background-color: #ad0f0f;
     color: #fff;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid black;
 }
-
+ 
 .cheffik{
     display: flex;
     justify-content: center;
     opacity: 20%;
-    margin-top: -420px;
+    margin-top: -440px;
 }
-
+ 
+.kebab{
+    display: flex;
+    justify-content: left;
+    margin-top: -450px;
+    
+}
+ 
 .ikonky{
     margin-top: 28px;
     display: flex;
@@ -69,64 +87,107 @@ footer {
     gap: 30px;
     color-scheme: white;
 }
-
+ 
 .doba{
     justify-content: center;
     display: flex;
-    margin-left: 1100px
+    margin-left: 1137px;
+    margin-top: -90px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
 }
-
-.dny{
-    justify-content: center;
-    display: flex;
-    margin-left: 1100px;
-    column-count: 7;
-    column-gap: 20px;
-}
-
+ 
 .pondeli{
     text-align: right;
     margin-right: 377px;
-    margin-top: 120px;
+    margin-top: 60px;
+    font-weight: bold;
 }
-
+ 
 .utery{
     text-align: right;
     margin-right: 396px;
     margin-top: 30px;
-    
+   
 }
-
+ 
 .streda{
     text-align: right;
     margin-right: 387px;
     margin-top: 30px;
+    font-weight: bold;
 }
-
+ 
 .ctvrtek{
     text-align: right;
     margin-right: 378px;
     margin-top: 30px;
-
+ 
 }
-
+ 
 .patek{
     text-align: right;
     margin-right: 396px;
     margin-top: 30px;
+    font-weight: bold;
 }
-
+ 
 .sobota{
     text-align: right;
     margin-right: 387px;
     margin-top: 30px;
 }
-
+ 
 .nedele{
     text-align: right;
     margin-right: 387px;
     margin-top: 30px;
+    font-weight: bold;
 }
-
-
-
+ 
+.jedna{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: -318px;
+    font-weight: bold;
+}
+ 
+.dva{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 30px;
+}
+ 
+.tri{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+ 
+.ctyri{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 30px;
+}
+ 
+.pet{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+ 
+.sest{
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 30px;
+}
+ 
+.sedm{
+    text-align: right;
+    margin-right: 192px;
+    margin-top: 30px;
+    font-weight: bold;
+}
