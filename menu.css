@@ -1,0 +1,41 @@
+.nabidka{
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sipka{
+    justify-content: left;
+    display: flex;
+    margin-top: -67px;
+    margin-left: 10px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.box {
+    width: 250px; /* Šířka boxu */
+    height: 250px; /* Výška boxu */
+    background-color: #f0f0f0; /* Barva pozadí */
+    border: 1px solid #000; /* Ohraničení */
+    position: absolute; /* Absolutní pozicování */
+    top: 50%; /* Zarovnání horní hrany na 50% výšky okna */
+    left: 50%; /* Zarovnání levé hrany na 50% šířky okna */
+    transform: translate(-50%, -50%); 
+    margin-top: -280px;
+}
+
+.box img {
+    width: 100%;
+    height: 90%; 
+}
+
+
+
+

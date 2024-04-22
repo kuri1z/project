@@ -7,7 +7,7 @@ body {
 }
  
 header {
-    background-color: #ad0f0f;
+    background-color: forestgreen;
     color: #fff;  
     padding: 20px 0;
     width: 100%;
@@ -26,7 +26,7 @@ header {
 }
  
 .info {
-    background-color: #ad0f0f;
+    background-color: forestgreen;
     display: flex;
     justify-content: center;
     color: white;
@@ -76,12 +76,18 @@ main{
 .doba{
     justify-content: center;
     display: flex;
-    margin-left: 1167px;
+    margin-left: 1131px;
     margin-top: -120px;
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
 }
+
+.socky{
+    opacity: 30%;
+    color: white;
+}
+
  
 .pondeli{
     text-align: right;
@@ -178,7 +184,7 @@ main{
 }
 
 footer {
-    background-color: #ad0f0f;
+    background-color: forestgreen;
     color: #fff;
     text-align: center;
     position: fixed;
