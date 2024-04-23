@@ -1,5 +1,5 @@
 .nabidka{
-    background-color: green;
+    background-color: rgb(128, 196, 128);
     justify-content: center;
     display: flex;
     padding: 30px;
@@ -35,6 +35,13 @@
     width: 100%;
     height: 90%; 
 }
+ .kosik{
+    justify-content: right;
+    display: flex;
+    margin-top: -60px;
+    margin-right: 20px;
+
+ }
 
 
 

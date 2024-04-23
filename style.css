@@ -7,7 +7,7 @@ body {
 }
  
 header {
-    background-color: forestgreen;
+    background-color: rgb(128, 196, 128);
     color: #fff;  
     padding: 20px 0;
     width: 100%;
@@ -26,7 +26,7 @@ header {
 }
  
 .info {
-    background-color: forestgreen;
+    background-color: rgb(128, 196, 128);
     display: flex;
     justify-content: center;
     color: white;
@@ -184,7 +184,7 @@ main{
 }
 
 footer {
-    background-color: forestgreen;
+    background-color: rgb(128, 196, 128);
     color: #fff;
     text-align: center;
     position: fixed;
