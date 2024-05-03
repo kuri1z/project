@@ -7,8 +7,7 @@ body {
 }
  
 header {
-    background-color: rgb(128, 196, 128);
-    color: #fff;  
+    background-color: rgb(177, 10, 10);
     padding: 20px 0;
     width: 100%;
     border-bottom: 2px solid black;
@@ -26,10 +25,9 @@ header {
 }
  
 .info {
-    background-color: rgb(128, 196, 128);
+    background-color: rgb(177, 10, 10);
     display: flex;
     justify-content: center;
-    color: white;
     text-indent: 50px;
     font-weight: bold;  
 }
@@ -54,16 +52,17 @@ section {
  
 main{
     margin-top: 200px;
+    
 }
  
 .cheffik{
     display: flex;
     justify-content: center;
     opacity: 20%;
-    margin-top: -460px;
+    margin-top: -550px;
 }
  
-.kebab{
+.pizza{
     display: flex;
     justify-content: left;
     margin-top: -400px;
@@ -184,7 +183,7 @@ main{
 }
 
 footer {
-    background-color: rgb(128, 196, 128);
+    background-color: rgb(177, 10, 10);
     color: #fff;
     text-align: center;
     position: fixed;
