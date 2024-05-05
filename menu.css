@@ -102,7 +102,36 @@ img{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin-top: 100px;
-    l
+}
+
+.pizza1{
+    display: flex;
+    justify-content: center;
+    margin-top: -1290px;
+}
+
+.pizza2{
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.pizza3{
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.pizza4{
+    display: flex;
+    justify-content: center;
+    margin-top: 370px;
+}
+
+.pizza44{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 
